@@ -8,8 +8,8 @@ namespace FunctionApp
 {
     public static class Constants
     {
-        public static string Auth0Domain => GetEnvironmentVariable("AUTH0_DOMAIN");
-        public static string Audience => GetEnvironmentVariable("AUTH0_AUDIENCE");
+        public static string Auth0Domain => GetEnvironmentVariable("https://sergiotest.eu.auth0.com");
+        public static string Audience => GetEnvironmentVariable("https://sergiosayshi.azurewebsites.net/");
 
         private static string GetEnvironmentVariable(string name)
         {
